@@ -1,1 +1,13 @@
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
 
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+eureka:
+  instance:
+     hostname: localhost
